@@ -1,0 +1,8 @@
+public class DesignPattern {
+    public static void main(String[] args)
+    {
+          Marker marker = new PermanentMarker();
+          Pen pen = new MarkerAdapter(marker);
+          pen.write();
+    }
+}
