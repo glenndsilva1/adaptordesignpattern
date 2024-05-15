@@ -1,0 +1,7 @@
+class PermanentMarker implements Marker {
+
+    @Override
+    public void mark() {
+        System.out.println("Marking...");
+    }
+}
